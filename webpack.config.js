@@ -18,20 +18,19 @@ module.exports = (env) => {
       },{
         test:/\.s?css$/, /*support both css and scss by adding ? mark*/
         use: CSSExtract.extract({
-          use:
-          [
-              {
-                loader: 'css-loader',
-                options: {
-                  sourceMap: true
-                }
-              },
-              {
-                loader: 'sass-loader',
-                options: {
-                  sourceMap: true
-                }
+          use: [
+            {
+              loader: 'css-loader',
+              options: {
+                sourceMap: true
               }
+            },
+            {
+              loader: 'sass-loader',
+              options: {
+                sourceMap: true
+              }
+            }
           ]
         })
       }]
