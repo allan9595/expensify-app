@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render Header correctlt 1`] = `
+exports[`should render Header correctly 1`] = `
 <header>
   <h1>
     Expensify
@@ -18,14 +18,7 @@ exports[`should render Header correctlt 1`] = `
     ariaCurrent="true"
     to="/create"
   >
-    Create Expanse
-  </NavLink>
-  <NavLink
-    activeClassName="is-active"
-    ariaCurrent="true"
-    to="/help"
-  >
-    Help
+    Create Expense
   </NavLink>
 </header>
 `;

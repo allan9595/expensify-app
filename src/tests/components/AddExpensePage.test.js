@@ -3,12 +3,14 @@ import { shallow } from 'enzyme';
 import { AddExpensePage } from '../../components/AddExpensePage';
 import expenses from '../fixtures/expenses';
 
-let addExpense, history, wrapper ;
+let addExpense, history, wrapper;
+
 beforeEach(() => {
- addExpense = jest.fn();
- history = { push: jest.fn() };
- wrapper = shallow(<AddExpensePage addExpense={addExpense} history={history} />);
-}); //jest life cycle method
+  addExpense = jest.fn();
+  history = { push: jest.fn() };
+  wrapper = shallow(<AddExpensePage addExpense={addExpense} history={history} />);
+});
+
 test('should render AddExpensePage correctly', () => {
   expect(wrapper).toMatchSnapshot();
 });
