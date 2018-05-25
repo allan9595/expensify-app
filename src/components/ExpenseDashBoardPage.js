@@ -3,7 +3,7 @@ import ExpenseList from './ExpenseList';
 import ExpenseListFilters from './ExpenseListFilters';
 import ExpensesSummary from './ExpensesSummary';
 
-const ExpenseDashboardPage = () => (
+const ExpenseDashBoardPage = () => (
   <div>
     <ExpenseListFilters />
     <ExpensesSummary />
@@ -11,4 +11,4 @@ const ExpenseDashboardPage = () => (
   </div>
 );
 
-export default ExpenseDashboardPage;
+export default ExpenseDashBoardPage;
