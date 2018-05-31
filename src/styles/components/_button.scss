@@ -1,0 +1,23 @@
+.button {
+  background-color: $light-blue;
+  font-size: $font-size-large;
+  color: $light-white;
+  border-radius:3px;
+  padding:$s-size $s-size;
+  border:none;
+  font-weight: 300;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.button--link {
+  background: none;
+  color:white;
+  border:none;
+  padding: 0;
+}
+
+.button--secordary {
+  background-color: #5b5b5b;
+}
